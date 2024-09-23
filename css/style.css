@@ -1,0 +1,48 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofadi+One&display=swap'); */
+
+h1, h2, h3, h4, h5, h6{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Sofadi One", system-ui;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+pre{
+  font-style: italic;
+}
+
+img{
+  height: 350px;
+}
+.first{
+  background-color: aqua;
+  height: 500px;
+  width: 1000px;
+  background-image: url('../image/Plane.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.main{
+  background-color: chartreuse;
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  flex-direction: column;
+  flex-grow: inherit;
+}
+
+.main div{
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  flex-grow: 1;
+}
